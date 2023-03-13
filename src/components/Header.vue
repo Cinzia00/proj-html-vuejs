@@ -1,15 +1,15 @@
 <template>
     <header>
-        <div class="container">
+        <div class="container-fluid">
             <div class="box-logo">
-                <img class="logo" src="" alt="LOGO">
+                <img class="logo" src="/dark-logo.png" alt="LOGO">
             </div>
             <div>
             <ul class="menu-list">
-                <li>
-                    <a href="">Home <i class="fa-solid arrow fa-angle-down"></i></a>
+                <li v-for="el in this.listMenu">
+                    <a href=""> {{ el }} <i class="fa-solid arrow fa-angle-down"></i></a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="">Pages <i class="fa-solid arrow fa-angle-down"></i></a>
                 </li>
                 <li>
@@ -23,19 +23,22 @@
                 </li>
                 <li>
                     <a href="">Shop <i class="fa-solid arrow fa-angle-down"></i></a>
-                </li>
+                </li> -->
             </ul>
             </div>
             <div class="menu-search">
                 <div class="menu-search">
                     <div class="box-flag">
-                        <img src="/Bandiera-Inglese.png" alt="">
+                        <img src="/en.png" alt="">
                     </div>
-                    <p>ENGLISH <i class="fa-solid arrow fa-angle-down"></i></p>
+                    <span>ENGLISH <i class="fa-solid arrow fa-angle-down"></i></span>
                     <i class="fa-regular fa-circle-user"></i>
                 </div>
-                <div>
-                    <input class="input-search" type="text" placeholder="Search">
+                <div class="input-search-icon">
+                    <input class="input-search" type="text" placeholder="Search...">
+                    <div class="icon-search">
+                        <i class="fa-solid search-icon fa-magnifying-glass"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -45,14 +48,21 @@
 
 
 <script>
+export default {
 
+  data() {
+    return {
+        listMenu: ['Home', 'Pages', 'Courses', 'Features', 'Blog', 'Shop' ]
+    }
+  }
 
+}
 </script>
 
 
 
 <style lang="scss" scoped>
-.container {
+.container-fluid {
     display: flex;
     justify-content: space-between;
     line-height: center;
@@ -60,6 +70,7 @@
     // background-color: aquamarine;
 
     .box-logo {
+        width: 160px;
         margin-left: 120px;
         .logo {
             margin-top: 30px;
@@ -67,7 +78,9 @@
     }
     .input-search {
         border: none;
-        padding: 32px;
+        border-left: 1px solid #eceeef;
+        font-size: 16px;
+        padding-left: 15px;
     }
 
 }
@@ -81,10 +94,6 @@
     }
 }
 
-.box-flag {
-    width: 38px;
-    height: 33px;
-}
 
 .menu-search {
     display: flex;
@@ -92,6 +101,15 @@
     gap: 14px;
 }
 
+.input-search-icon {
+   display: flex;
+   line-height: 80px;
+}
+
+.search-icon{
+    font-weight: bold;
+    margin-right: 20px;
+}
 
 
 

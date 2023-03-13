@@ -17,3 +17,23 @@ a {
 img {
   max-width: 100%;
 }
+
+.button-get-started {
+  width: 200px;
+  background-color: #20AD96;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.section {
+  padding-top: 125px;
+}
+
+.color-green {
+  color: #20AD96;
+}
