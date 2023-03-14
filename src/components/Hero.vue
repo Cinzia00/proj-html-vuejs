@@ -2,10 +2,10 @@
     <section class="section-hero">
     <div class="container hero-container">
         <div class="row">
-            <div class="col-4 descriptio-hero">
+            <div class="col-5 descriptio-hero">
                 <h3 class="color-green">New Challenges, New Skills</h3>
-                <h1>BUILD YOUR OWN LIFE COACHING BUSINESS</h1>
-                <p>Whole-Life Business Coaching for committed entrepreneurs</p>
+                <h1 class="text-hero">BUILD YOUR OWN LIFE COACHING BUSINESS</h1>
+                <p class="paragraph-hero">Whole-Life Business Coaching for committed entrepreneurs</p>
                 <button class="button-get-started">Get started today</button>
             </div>
             <div class="col avatar-hero">
@@ -35,7 +35,8 @@
     }
 
     .descriptio-hero {
-        padding-top: 130px;
+        padding-top: 135px;
+        padding-left: 30px;
     }
 
     .avatar-hero{
@@ -43,8 +44,22 @@
     }
 
     .color-green{
-        padding-bottom: 25px;
+        padding-bottom: 15px;
+        font-size: 23px;
     }
 } 
+
+.text-hero {
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 24px;
+}
+
+.paragraph-hero {
+    line-height: 2rem;
+    color: #797979;
+    font-size: 17px;
+    padding-bottom: 14px;
+}
 
 </style>

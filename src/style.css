@@ -36,4 +36,10 @@ img {
 
 .color-green {
   color: #20AD96;
+  padding-bottom: 25px;
+  font-size: 24px;
+}
+
+.p-description {
+  text-align: center;
 }

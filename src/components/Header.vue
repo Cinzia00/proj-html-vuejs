@@ -88,6 +88,7 @@ export default {
     display: flex;
     gap: 49px;
     margin-top: 30px;
+    color: #343142;
 
     .arrow {
         font-size: 10px;

@@ -76,9 +76,6 @@
 
 
 <style lang="scss" scoped>
-.p-description {
-    text-align: center;
-}
 
 .description {
     font-size: 35px;
@@ -95,10 +92,6 @@
         font-size: 25px;
         margin-bottom: 16px;
     }
-}
-
-.color-green {
-    padding-bottom: 25px;
 }
 
 .buttons {
