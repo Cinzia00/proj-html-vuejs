@@ -43,3 +43,9 @@ img {
 .p-description {
   text-align: center;
 }
+
+.title {
+  font-weight: bold;
+  font-size: 45px;
+
+}

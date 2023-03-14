@@ -69,8 +69,8 @@
 
 .title {
     width: 435px;
-    font-weight: bold;
-    font-size: 2.6rem;
+    // font-weight: bold;
+    // font-size: 2.6rem;
 }
 
 .title-bg {
@@ -86,4 +86,6 @@ li {
         border-bottom: 2px solid #797979;
         padding: 20px 0;
     }
-}</style>
+}
+
+</style>
