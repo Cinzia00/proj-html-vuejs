@@ -16,7 +16,6 @@
                             <p class="work">/ Multimedia Admin</p>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="col-3 bg-white testimonial-card">
@@ -30,7 +29,6 @@
                             <p class="work">/ Freelencer</p>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="col-3 bg-white testimonial-card">
@@ -44,7 +42,6 @@
                             <p class="work">/ IT Specialist</p>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="col-3 bg-white testimonial-card d-none">

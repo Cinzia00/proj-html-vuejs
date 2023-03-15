@@ -17,7 +17,6 @@
                         <button class="button-get-started">Get ticket</button>
                     </div>
                 </div>
-
                 <div class="d-flex bg-color">
                     <div>
                         <p class="luogo"><i class="fa-solid fa-location-dot"></i> New York, US</p>
@@ -30,7 +29,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="d-flex justify-content-center mt-5 row-gap">
                 <div class="d-flex bg-color">
                     <div>
@@ -55,7 +53,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="d-flex justify-content-center row-gap mt-5">
                 <div class="d-flex bg-color">
                     <div>
@@ -82,7 +79,7 @@
             </div>
         </div>
         <div class="info d-flex justify-content-center">Excited about our event?
-            <a class="text-green" href="">View all events <i class="fa-solid fa-arrow-right-long"></i></a>
+            <a class="text-green" href=""> View all events <i class="fa-solid fa-arrow-right-long"></i></a>
         </div>
     </section>
 </template>
@@ -103,11 +100,6 @@ export default {
 .row-gap {
     gap: 34px;
 }
-
-// .grid {
-//     display: grid;
-//     grid-template-columns: repeat(2, 4fr);
-// }
 
 .bg-color {
     width: 570px;
@@ -148,9 +140,10 @@ export default {
 
     .info{
        margin-top: 50px;
+       margin-bottom: 120px;
        color: #343142;
 
-       .text-green{
+       .text-green {
         color: #20AD96;
        }
     }

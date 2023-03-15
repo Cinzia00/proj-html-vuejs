@@ -9,7 +9,6 @@
                     <li v-for="el in this.listMenu">
                         <a href=""> {{ el }} <i class="fa-solid arrow fa-angle-down"></i></a>
                     </li>
-
                 </ul>
             </div>
             <div class="menu-search">
@@ -70,6 +69,11 @@ export default {
         border-left: 1px solid #eceeef;
         font-size: 16px;
         padding-left: 15px;
+    }
+
+    li:hover {
+        color: #20AD96;
+        border-bottom: 1px solid #20AD96;
     }
 
 }

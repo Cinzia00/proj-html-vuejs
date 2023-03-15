@@ -12,7 +12,6 @@
                 <img src="/home-business-hero-avatar.png" alt="">
             </div>
         </div>
-        
     </div>
     </section>
 
@@ -24,6 +23,7 @@
 export default {
     name: 'Hero'
 }
+
 </script>
 
 

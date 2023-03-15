@@ -10,31 +10,17 @@
                 </div>
             </div>
             <div class="grid">
-                <div>
-                    <div class="d-flex">
-                        <div>
-                            <i class="fa-regular fa-lightbulb"></i>
-                        </div>
-                        <div>
-                            <h1>One to One</h1>
-                            <p>
-                                Getting the necessary clarity about the current state to help you improve your game.
-                            </p>
-
-                        </div>
-                    </div>
+                <div v-for="el in this.info">
+                    <h1>{{ el.title }}</h1>
+                    <p>
+                        {{ el.text }}
+                    </p>
                 </div>
-                <div class="d-flex">
-                    <div>
-                        <img src="/add.svg" alt="">
-                        
-                    </div>
-                    <div>
-                        <h1>Anywhere</h1>
-                        <p>
-                            Access to valuable and portable program which allow you to setup and live anywhere you want.
-                        </p>
-                    </div>
+                <!-- <div>
+                    <h1>Anywhere</h1>
+                    <p>
+                        Access to valuable and portable program which allow you to setup and live anywhere you want.
+                    </p>
                 </div>
                 <div>
                     <h1>On Time</h1>
@@ -59,7 +45,7 @@
                     <p>
                         Business Coaching often keep your focus and develop you both in a professional and personal way.
                     </p>
-                </div>
+                </div> -->
             </div>
             <div class="buttons">
                 <button class="learn-more">Learn more</button>
@@ -73,14 +59,49 @@
 <script>
 
 export default {
-    name: 'sectionInfoMore'
+    name: 'sectionInfoMore',
+
+    data() {
+        return {
+            info: [
+                {
+                    title: 'One to One',
+                    text: 'Getting the necessary clarity about the current state to help you improve your game.'
+                },
+                {
+                    title: 'Anywhere',
+                    text: 'Access to valuable and portable program which allow you to setup and live anywhere you want.'
+
+                },
+                {
+                    title: 'On Time',
+                    text: 'Punctuality is our top priority because it s an essential criteria to assess a program quality.'
+
+                },
+                {
+                    title: 'Online Coures',
+                    text: 'Online business coaching now offers you a very powerful way to empower your business into success.'
+
+                },
+                {
+                    title: 'Consulting',
+                    text: 'You will get a clear sense of direction for your business, thorough assessment and faster results.'
+
+                },
+                {
+                    title: 'Self Development',
+                    text: 'Business Coaching often keep your focus and develop you both in a professional and personal way.'
+                }
+
+            ]
+        }
+    }
 }
 
 </script>
 
 
 <style lang="scss" scoped>
-
 .description {
     font-size: 35px;
     font-weight: bold;
@@ -113,6 +134,10 @@ export default {
     font-size: 14px;
     font-weight: bold;
     margin: 0 30px;
+}
 
+.learn-more:hover {
+    background-color: #20AD96;
+    color: white;
 }
 </style>

@@ -6,7 +6,7 @@ import sectionExplore from './components/sectionExplore.vue'
 import sectionInfo from './components/sectionInfo.vue'
 import sectionUpcoming from './components/sectionUpcoming.vue'
 import sectionTestimonial from './components/sectionTestimonial.vue'
-import footerApp from './components/footerApp.vue'
+import sectionFooter from './components/sectionFooter.vue'
 
 export default {
   components: {
@@ -17,7 +17,7 @@ export default {
     sectionInfo,
     sectionUpcoming,
     sectionTestimonial,
-    footerApp
+    sectionFooter
   },
   data() {
     return {
@@ -27,6 +27,7 @@ export default {
 
 }
 </script>
+
 
 <template>
   <HeaderApp />
@@ -38,14 +39,12 @@ export default {
     <sectionUpcoming />
     <sectionTestimonial />
   </main>
-  <footerApp />
-
-
-
+  <footer>
+    <sectionFooter />
+  </footer>
 </template>
 
+
 <style lang="scss">
-
-
 
 </style>

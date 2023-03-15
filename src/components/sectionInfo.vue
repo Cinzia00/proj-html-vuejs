@@ -9,25 +9,24 @@
                             <img src="/icon-youtube-play.png" alt="">
                         </div>
                     </div>
-
                 </div>
                 <div>
                     <h2 class="title">To Thrive In Business Today, You'll Need a Good Plan</h2>
                     <ul>
                         <li>
-                            <h2 class="title-bg">How can we help?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quam ipsa est cum.
+                            <h2 class="title-bg more-info">How can we help?</h2>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quam ipsa est cum.
                                 Accusantium maxime, odit eligendi ipsam quibusdam cupiditate!</p>
                         </li>
                         <li>
-                            <h2 class="title-bg">Why would I need a business COACH?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias voluptates quia ad rerum
+                            <h2 class="more-info">Why would I need a business COACH?</h2>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias voluptates quia ad rerum
                                 nesciunt, placeat omnis illo. Iusto perferendis perspiciatis reiciendis pariatur vitae et.
                             </p>
                         </li>
                         <li>
-                            <h2 class="title-bg">What is one-on-one coaching?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum saepe recusandae expedita
+                            <h2 class="more-info">What is one-on-one coaching?</h2>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum saepe recusandae expedita
                                 facilis, sint modi nulla quos dolore, nihil natus voluptatibus nemo maxime atque laboriosam.
                             </p>
                         </li>
@@ -77,23 +76,38 @@ export default {
 
 .title {
     width: 435px;
-    // font-weight: bold;
-    // font-size: 2.6rem;
 }
 
-.title-bg {
-    color: #20AD96;
+.more-info {
     font-size: 24px;
     font-weight: 100;
+    border-bottom: 2px solid #797979;
+    padding: 25px;    
 }
+
+.more-info:hover {
+    
+    color: #20AD96;
+    border-bottom: none;
+}
+
+    p:hover {
+        display: block;
+        border-bottom: 2px solid #797979;  
+        padding: 25px;    
+    }
 
 li {
 
     p {
         font-size: 14px;
-        border-bottom: 2px solid #797979;
         padding: 20px 0;
     }
 }
+
+.text {
+    display: none;
+}
+
 
 </style>
