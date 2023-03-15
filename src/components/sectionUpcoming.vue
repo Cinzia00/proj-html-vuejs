@@ -87,7 +87,12 @@
     </section>
 </template>
 
-<script></script>
+<script>
+export default {
+    name: 'sectionUpcoming'
+}
+
+</script>
 
 
 <style lang="scss" scoped>
@@ -143,7 +148,7 @@
 
     .info{
        margin-top: 50px;
-       color: #797979;
+       color: #343142;
 
        .text-green{
         color: #20AD96;

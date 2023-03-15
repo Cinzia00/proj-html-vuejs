@@ -5,26 +5,12 @@
                 <img class="logo" src="/dark-logo.png" alt="LOGO">
             </div>
             <div>
-            <ul class="menu-list">
-                <li v-for="el in this.listMenu">
-                    <a href=""> {{ el }} <i class="fa-solid arrow fa-angle-down"></i></a>
-                </li>
-                <!-- <li>
-                    <a href="">Pages <i class="fa-solid arrow fa-angle-down"></i></a>
-                </li>
-                <li>
-                    <a href="">Courses <i class="fa-solid arrow fa-angle-down"></i></a>
-                </li>
-                <li>
-                    <a href="">Features <i class="fa-solid arrow fa-angle-down"></i></a>
-                </li>
-                <li>
-                    <a href="">Blog <i class="fa-solid arrow fa-angle-down"></i></a>
-                </li>
-                <li>
-                    <a href="">Shop <i class="fa-solid arrow fa-angle-down"></i></a>
-                </li> -->
-            </ul>
+                <ul class="menu-list">
+                    <li v-for="el in this.listMenu">
+                        <a href=""> {{ el }} <i class="fa-solid arrow fa-angle-down"></i></a>
+                    </li>
+
+                </ul>
             </div>
             <div class="menu-search">
                 <div class="menu-search">
@@ -49,12 +35,14 @@
 
 <script>
 export default {
+    nome: 'HeaderApp',
+    
 
-  data() {
-    return {
-        listMenu: ['Home', 'Pages', 'Courses', 'Features', 'Blog', 'Shop' ]
+    data() {
+        return {
+            listMenu: ['Home', 'Pages', 'Courses', 'Features', 'Blog', 'Shop']
+        }
     }
-  }
 
 }
 </script>
@@ -66,16 +54,17 @@ export default {
     display: flex;
     justify-content: space-between;
     line-height: center;
-    color: #343142;
-    // background-color: aquamarine;
+    color: var(--font);
 
     .box-logo {
         width: 160px;
         margin-left: 120px;
+
         .logo {
             margin-top: 30px;
         }
     }
+
     .input-search {
         border: none;
         border-left: 1px solid #eceeef;
@@ -84,11 +73,12 @@ export default {
     }
 
 }
+
 .menu-list {
     display: flex;
     gap: 49px;
     margin-top: 30px;
-    color: #343142;
+    color: var(--font);
 
     .arrow {
         font-size: 10px;
@@ -103,15 +93,12 @@ export default {
 }
 
 .input-search-icon {
-   display: flex;
-   line-height: 80px;
+    display: flex;
+    line-height: 80px;
 }
 
-.search-icon{
+.search-icon {
     font-weight: bold;
     margin-right: 20px;
 }
-
-
-
 </style>

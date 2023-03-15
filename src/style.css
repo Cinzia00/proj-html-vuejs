@@ -18,6 +18,13 @@ img {
   max-width: 100%;
 }
 
+:root {
+  --green:#20AD96,
+  --background: #F8F8F8;
+  --font-gray: #bcbcbc;
+  --font: #343142;
+}
+
 .button-get-started {
   width: 200px;
   background-color: #20AD96;
@@ -32,6 +39,10 @@ img {
 
 .section {
   padding-top: 125px;
+}
+
+.section-bg {
+  background-color: #F8F8F8;
 }
 
 .color-green {
@@ -49,3 +60,4 @@ img {
   font-size: 45px;
 
 }
+

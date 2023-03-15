@@ -19,7 +19,12 @@
 </template>
 
 
-<script></script>
+<script>
+
+export default {
+    name: 'Hero'
+}
+</script>
 
 
 <style lang="scss" scoped>

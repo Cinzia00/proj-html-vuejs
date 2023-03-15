@@ -1,12 +1,12 @@
 <template>
     <section class="section-bg">
         <div class="container-section">
-            <div class="row p-description">
+            <div class="p-description">
                 <h3 class="color-green">Let's Dream Big Together</h3>
                 <h1 class="title">Explore How can I help you</h1>
             </div>
 
-            <div class="row row-card d-flex py-5">
+            <div class="row-card d-flex py-5">
 
                 <div class="card image-card" style="width: 18rem;">
                     <img src="/home-business-service-slide-01-480x298.jpg" class="card-img-top" alt="...">
@@ -60,7 +60,7 @@
 
     <section>
         <div class="container-section">
-            <div class="row p-description">
+            <div class="p-description">
                 <h3 class="color-green">Let's Dream Big Together</h3>
                 <h1 class="title">Explore How can I help you</h1>
             </div>
@@ -82,7 +82,6 @@
                         <p class="price">Free</p>
                         <h2 class="position-ab-title">Customer-centric Info-Tech Strategies</h2>
                     </div>
-
                 </div>
                 <div class="position-rel">
                     <div class="box-image">
@@ -118,12 +117,15 @@
     </section>
 </template>
 
-<script></script>
+<script>
+export default {
+    name:'sectionExplore'
+}
+
+</script>
 
 <style lang="scss" scoped>
-.section-bg {
-    background-color: #F8F8F8;
-}
+
 
 .container-section {
     padding-top: 125px;
@@ -167,10 +169,10 @@
 }
 
 .box-image {
-    width: 400px;
 
     img {
         border-radius: 5px;
+        width: 100%;
 
     }
 }
@@ -185,7 +187,7 @@
 .position-rel {
     position: relative;
     font-weight: bold;
-
+    width: calc(100% / 4);
     .position-abs {
         position: absolute;
         left: 0;

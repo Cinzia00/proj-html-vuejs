@@ -72,6 +72,10 @@
 
 <script>
 
+export default {
+    name: 'sectionInfoMore'
+}
+
 </script>
 
 

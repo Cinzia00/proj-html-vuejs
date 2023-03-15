@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <section class="section-hero">
         <div class="hero">  
               
@@ -21,4 +21,4 @@
 .section-hero {
     background-image: url('/home-business-hero-global-image.png');
 }
-</style>
+</style> -->

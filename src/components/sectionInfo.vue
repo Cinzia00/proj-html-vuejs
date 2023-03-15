@@ -2,12 +2,12 @@
     <section class="section">
         <div class="container">
             <div class="d-flex info-youtube">
-                <div class="position-rel">
-                    <div class="box-image">
+                <div>
+                    <div class="box-image position-rel">
                         <img src="/home-business-video-poster-670x450.jpg" alt="">
-                    </div>
-                    <div class="position-ab">
-                        <img src="/icon-youtube-play.png" alt="">
+                        <div class="position-ab">
+                            <img src="/icon-youtube-play.png" alt="">
+                        </div>
                     </div>
 
                 </div>
@@ -39,6 +39,14 @@
     </section>
 </template>
 
+<script>
+
+export default {
+    name: 'sectionInfo'
+}
+
+</script>
+
 <style lang="scss" scoped>
 .section {
     background-color: #323043;
@@ -57,9 +65,9 @@
     
         .position-ab {
             position: absolute;
-            left: 0;
-            bottom: 0;
-            // transform: translate(-50% -50%);
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     }
 
