@@ -16,9 +16,14 @@
                     <div class="box-flag">
                         <img src="/en.png" alt="">
                     </div>
-                    <span>ENGLISH <i class="fa-solid arrow fa-angle-down"></i></span>
-                    <i class="fa-regular fa-circle-user"></i>
                 </div>
+                <select name="" id="">
+                    <option value="">inglese</option>
+                    <option value="">italiano</option>
+                    <option value="">francese</option>
+                    <option value="">sapgnolo</option>
+                </select>
+                <i class="fa-regular fa-circle-user"></i>
                 <div class="input-search-icon">
                     <input class="input-search" type="text" placeholder="Search...">
                     <div class="icon-search">
@@ -35,7 +40,7 @@
 <script>
 export default {
     nome: 'HeaderApp',
-    
+
 
     data() {
         return {

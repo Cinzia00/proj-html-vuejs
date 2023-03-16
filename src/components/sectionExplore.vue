@@ -7,7 +7,7 @@
             </div>
             <div class="row-card d-flex py-5">
                 <div class="card image-card" style="width: 18rem;" v-for="el in cards">
-                    <img :src=el.image class="card-img-top" alt="...">
+                    <img :class="image-explore" :src=el.image class="card-img-top" alt="...">
                     <div class="card-body px-0">
                         <h1> {{ el.title }} </h1>
                         <p class="card-text text-card"> {{ el.text }} </p>
@@ -30,7 +30,7 @@
             <div class="image-section d-flex">
                 <div class="position-rel">
                     <div class="box-image">
-                        <img src="/course-02-443x600.jpg" alt="">
+                        <img class="image" src="/course-02-443x600.jpg" alt="">
                     </div>
                     <div class="position-abs">
                         <p class="price"> $40.oo </p>
@@ -173,9 +173,8 @@ export default {
 }
 
 .discover-now:hover {
-    font-size: 17px;
+    font-size: 12px;
 }
-
 
 
 .box-image {
@@ -207,12 +206,6 @@ export default {
         color: white;
         font-size: 20px;
         background-color: rgba(0, 0, 0, 0.4);
-        // background-image: linear-gradient(
-        //     to top,
-        //     black,
-        //     gray
-
-        // );
     }
 
     .price {
@@ -244,4 +237,11 @@ export default {
         color: #20AD96;
     }
 }
+
+
+// .card-img-top:hover {
+//     border-radius: 20px;
+//     transform: scale(1.1);
+// }
+
 </style>

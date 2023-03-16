@@ -111,6 +111,17 @@ export default {
     .img-circle {
         top: 100px;
         left: 68px;
+        z-index: 999;
+            animation-name: spin;
+            animation-duration: 5000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear; 
+    }
+    
+        @keyframes spin {
+        0% {
+            transform: rotate(1turn);
+        }
     }
 }
 

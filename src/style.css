@@ -9,6 +9,11 @@ ol ,ul, menu {
   list-style: none;
 }
 
+select {
+  text-decoration: none;
+  border: none;
+}
+
 a {
   text-decoration: none;
   color: currentColor;
@@ -37,8 +42,7 @@ img {
 }
 
 .button-get-started:hover {
-  background-color: white;
-  color: #20AD96;
+  background-color: #343142;
 }
 
 .section {

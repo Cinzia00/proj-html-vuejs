@@ -15,18 +15,21 @@
                     <ul>
                         <li>
                             <h2 class="title-bg more-info">How can we help?</h2>
-                            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quam ipsa est cum.
+                            <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quam ipsa est
+                                cum.
                                 Accusantium maxime, odit eligendi ipsam quibusdam cupiditate!</p>
                         </li>
                         <li>
                             <h2 class="more-info">Why would I need a business COACH?</h2>
-                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias voluptates quia ad rerum
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias voluptates
+                                quia ad rerum
                                 nesciunt, placeat omnis illo. Iusto perferendis perspiciatis reiciendis pariatur vitae et.
                             </p>
                         </li>
                         <li>
                             <h2 class="more-info">What is one-on-one coaching?</h2>
-                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum saepe recusandae expedita
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum saepe
+                                recusandae expedita
                                 facilis, sint modi nulla quos dolore, nihil natus voluptatibus nemo maxime atque laboriosam.
                             </p>
                         </li>
@@ -58,20 +61,25 @@ export default {
 .position-rel {
     position: relative;
 }
-    .box-image {
-        margin-right: 30px;
-        width: 700px;
-    
-        .position-ab {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
+
+.box-image {
+    margin-right: 30px;
+    width: 700px;
+
+    .position-ab {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
+}
 
 .info-youtube {
     gap: 15px;
+
+    img {
+        border-radius: 5px;
+    }
 }
 
 .title {
@@ -82,20 +90,16 @@ export default {
     font-size: 24px;
     font-weight: 100;
     border-bottom: 2px solid #797979;
-    padding: 25px;    
+    padding: 25px;
 }
 
 .more-info:hover {
-    
     color: #20AD96;
+    border: none;
+    display: block;
     border-bottom: none;
+    padding: 25px;
 }
-
-    p:hover {
-        display: block;
-        border-bottom: 2px solid #797979;  
-        padding: 25px;    
-    }
 
 li {
 
@@ -108,6 +112,4 @@ li {
 .text {
     display: none;
 }
-
-
 </style>

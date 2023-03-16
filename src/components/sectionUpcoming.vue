@@ -101,6 +101,15 @@ export default {
     gap: 34px;
 }
 
+.bg-color:hover {
+    background-color: white;
+    border-left: 2px solid #20AD96;
+
+    .button-get-started {
+        background-color: #343142;
+    }
+}
+
 .bg-color {
     width: 570px;
     display: flex;
@@ -138,13 +147,13 @@ export default {
     }
 }
 
-    .info{
-       margin-top: 50px;
-       margin-bottom: 120px;
-       color: #343142;
+.info {
+    margin-top: 50px;
+    margin-bottom: 120px;
+    color: #343142;
 
-       .text-green {
+    .text-green {
         color: #20AD96;
-       }
     }
+}
 </style>

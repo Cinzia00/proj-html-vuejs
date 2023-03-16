@@ -137,7 +137,7 @@ export default {
 }
 
 .learn-more:hover {
-    background-color: #20AD96;
+    background-color: #343142;
     color: white;
 }
 </style>
