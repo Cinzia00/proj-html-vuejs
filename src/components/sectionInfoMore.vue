@@ -1,13 +1,11 @@
 <template>
     <section class="section">
         <div class="container">
-            <div class="row p-description">
-                <div class="col-10">
-                    <h3 class="color-green">Let's Dream Big Together</h3>
-                    <p class="description">We are pioneers of the digital approach, using leading-edge technology to
-                        simplify procedurs and apply executive coaching in the new age of digitalization.
-                    </p>
-                </div>
+            <div class="p-description">
+                <h3 class="color-green">Let's Dream Big Together</h3>
+                <p class="description ">We are pioneers of the digital approach, using leading-edge technology to
+                    simplify procedurs and apply executive coaching in the new age of digitalization.
+                </p>
             </div>
             <div class="grid">
                 <div v-for="el in this.info">
@@ -16,36 +14,6 @@
                         {{ el.text }}
                     </p>
                 </div>
-                <!-- <div>
-                    <h1>Anywhere</h1>
-                    <p>
-                        Access to valuable and portable program which allow you to setup and live anywhere you want.
-                    </p>
-                </div>
-                <div>
-                    <h1>On Time</h1>
-                    <p>
-                        Punctuality is our top priority because it's an essential criteria to assess a program quality.
-                    </p>
-                </div>
-                <div>
-                    <h1>Online Coures</h1>
-                    <p>
-                        Online business coaching now offers you a very powerful way to empower your business into success.
-                    </p>
-                </div>
-                <div>
-                    <h1>Consulting</h1>
-                    <p>
-                        You will get a clear sense of direction for your business, thorough assessment and faster results.
-                    </p>
-                </div>
-                <div>
-                    <h1>Self Development</h1>
-                    <p>
-                        Business Coaching often keep your focus and develop you both in a professional and personal way.
-                    </p>
-                </div> -->
             </div>
             <div class="buttons">
                 <button class="learn-more">Learn more</button>
@@ -140,4 +108,5 @@ export default {
     background-color: #343142;
     color: white;
 }
+
 </style>

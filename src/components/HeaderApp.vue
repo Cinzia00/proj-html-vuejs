@@ -2,12 +2,14 @@
     <header>
         <div class="container-fluid">
             <div class="box-logo">
-                <img class="logo" src="/dark-logo.png" alt="LOGO">
+                <a href="#">
+                    <img class="logo" src="/dark-logo.png" alt="LOGO">
+                </a>
             </div>
             <div>
                 <ul class="menu-list">
                     <li v-for="el in this.listMenu">
-                        <a href=""> {{ el }} <i class="fa-solid arrow fa-angle-down"></i></a>
+                        <a href="#"> {{ el }} <i class="fa-solid arrow fa-angle-down"></i></a>
                     </li>
                 </ul>
             </div>
@@ -39,7 +41,7 @@
 
 <script>
 export default {
-    nome: 'HeaderApp',
+    name: 'HeaderApp',
 
 
     data() {

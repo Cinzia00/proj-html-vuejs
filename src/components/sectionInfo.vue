@@ -6,7 +6,9 @@
                     <div class="box-image position-rel">
                         <img src="/home-business-video-poster-670x450.jpg" alt="">
                         <div class="position-ab">
-                            <img src="/icon-youtube-play.png" alt="">
+                            <a href="#">
+                                <img src="/icon-youtube-play.png" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>

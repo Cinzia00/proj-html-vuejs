@@ -32,37 +32,45 @@
                     <div class="box-image">
                         <img class="image" src="/course-02-443x600.jpg" alt="">
                     </div>
-                    <div class="position-abs">
-                        <p class="price"> $40.oo </p>
-                        <h2 class="position-ab-title">Learning to Write as a Professional Author </h2>
-                    </div>
+                    <a href="#">
+                        <div class="position-abs">
+                            <p class="price"> $40.oo </p>
+                            <h2 class="position-ab-title">Learning to Write as a Professional Author </h2>
+                        </div>
+                    </a>
                 </div>
                 <div class="position-rel">
                     <div class="box-image">
                         <img src="/stock-full-hd-03-443x600.jpg" alt="">
                     </div>
-                    <div class="position-abs">
-                        <p class="price">Free</p>
-                        <h2 class="position-ab-title">Customer-centric Info-Tech Strategies</h2>
-                    </div>
+                    <a href="#">
+                        <div class="position-abs">
+                            <p class="price">Free</p>
+                            <h2 class="position-ab-title">Customer-centric Info-Tech Strategies</h2>
+                        </div>
+                    </a>
                 </div>
                 <div class="position-rel">
                     <div class="box-image">
                         <img src="/stock-full-hd-04-443x600.jpg" alt="">
                     </div>
-                    <div class="position-abs">
-                        <p class="price">$19.oo</p>
-                        <h2 class="position-ab-title">Open Programming Courses for Everyone: Python</h2>
-                    </div>
+                    <a href="#">
+                        <div class="position-abs">
+                            <p class="price">$19.oo</p>
+                            <h2 class="position-ab-title">Open Programming Courses for Everyone: Python</h2>
+                        </div>
+                    </a>
                 </div>
                 <div class="position-rel">
                     <div class="box-image">
                         <img src="/stock-full-hd-06-443x600.jpg" alt="">
                     </div>
-                    <div class="position-abs">
-                        <p class="price">$26.oo</p>
-                        <h2 class="position-ab-title">Academic Listening and Note-taking</h2>
-                    </div>
+                    <a href="">
+                        <div class="position-abs">
+                            <p class="price">$26.oo</p>
+                            <h2 class="position-ab-title">Academic Listening and Note-taking</h2>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="p-description info-view">

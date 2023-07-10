@@ -34,8 +34,8 @@ export default {
     position: relative;
     background-color: #EFF2F6;
     z-index: -999;
-
-
+    
+    
     .image-world img {
         position: absolute;
         right: 10%;
